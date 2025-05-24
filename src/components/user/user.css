@@ -1,0 +1,81 @@
+.user-container {
+  padding: 20px;
+}
+
+.user-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.user-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.user-show,
+.user-edit {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info {
+  margin: 10px 0;
+}
+
+.user-role {
+  font-size: 14px;
+  color: gray;
+}
+
+.user-section {
+  margin-top: 20px;
+}
+
+.user-section h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.user-form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.user-form-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.update-button {
+  padding: 10px 20px;
+  background-color: #2a52be;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.update-button:hover {
+  background-color: #183487;
+}

@@ -1,0 +1,42 @@
+.prodouct{
+    flex: 4;
+}
+.userlist-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.userdiv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userlist-delete-btn {
+  background-color: #3c82f6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.userlist-delete-btn:hover {
+  background-color: #2563eb;
+}
+
+.userlistdelete {
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.userlistdelete:hover {
+  color: #dc2626;
+}

@@ -1,0 +1,46 @@
+.buy-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.buy-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.buy-info {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.card-form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.card-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-form input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.card-form button {
+  padding: 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
